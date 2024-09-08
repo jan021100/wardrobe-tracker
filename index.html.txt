@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardrobe Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wardrobe Tracker</h1>
+        <table id="wardrobe-table">
+            <thead>
+                <tr>
+                    <th>Brand</th>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Wears</th>
+                    <th>Cost per Wear</th>
+                    <th>Last Worn</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be dynamically added here -->
+            </tbody>
+        </table>
+        <form id="add-item-form">
+            <!-- Form inputs for adding new items -->
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
